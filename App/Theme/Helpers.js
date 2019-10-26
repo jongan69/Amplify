@@ -3,6 +3,8 @@ import { Colors } from 'App/Theme'
 
 export default StyleSheet.create({
   backgroundReset: {
+    // backgroundColor: Colors.transparent,
+    // backgroundColor: '#D8E9F0',
     backgroundColor: Colors.transparent,
   },
   center: {
@@ -42,6 +44,7 @@ export default StyleSheet.create({
   },
   fill: {
     flex: 1,
+    // backgroundColor: '#D8E9F0'
   },
   fillCenter: {
     alignItems: 'center',

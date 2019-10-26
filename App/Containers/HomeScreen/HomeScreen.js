@@ -56,7 +56,7 @@ class HomeScreen extends React.Component {
           <ActivityIndicator size="large" color="#0000ff" />
         ) : (
           <View>
-            <Text style={Style.title}>Welcome to Amplify</Text>
+            <Text style={Style.title}>Welcome to</Text>
             <View style={Style.logoContainer}>
               <Image style={Style.logo} source={Images.logo} resizeMode={'contain'} />
             </View>

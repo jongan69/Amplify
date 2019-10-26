@@ -19,17 +19,19 @@ const StackNavigator = createStackNavigator(
     Website: Website,
   },
   {
+    headerMode: 'none',
     // By default the application will show the splash screen
     defaultNavigationOptions: {
       initialRouteName: 'SplashScreen',
-      headerStyle: {
-        headerTitle: 'Amplify',
-        backgroundColor: '#D8E9F0',
-        // headerMode: 'float',
-        headerTintColor: '#000000',
-      },
+      headerMode: 'none',
+      // headerStyle: {
+      //   headerTitle: 'Amplify',
+      //   backgroundColor: '#D8E9F0',
+      //   headerMode: 'none',
+      //   headerTintColor: '#000000',
+      // },
       // headerTitle: 'Test',
-      headerTitleStyle: { flex: 1, textAlign: 'center', color: '#fff' },
+      // headerTitleStyle: { flex: 1, textAlign: 'center', color: '#fff' },
       // headerLayoutPreset: 'left',
     },
     // See https://reactnavigation.org/docs/en/stack-navigator.html#stacknavigatorconfig
