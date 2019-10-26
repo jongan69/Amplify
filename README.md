@@ -1,5 +1,8 @@
 # Amplify
 
+A mobile application being designed to Amplify any sports fan expirience
+
+
 The boilerplate provides **an architecture optimized for building solid cross-platform mobile applications** through separation of concerns between the UI and business logic. It is extremely documented so that each piece of code that lands in your application can be understood and used.
 
 ## Architecture
