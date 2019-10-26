@@ -44,6 +44,12 @@ class HomeScreen extends React.Component {
   }
 
   render() {
+    HomeScreen.propTypes = {
+      navigation: PropTypes.shape({
+        navigate: PropTypes.func.isRequired,
+      }).isRequired,
+    }
+
     return (
       <View style={Style.container}>
         {this.props.userIsLoading ? (
@@ -56,7 +62,10 @@ class HomeScreen extends React.Component {
             </View>
             <Text style={Style.text}>To get started, Login/Signup</Text>
             <Button onPress={() => this._fetchUser()} title="Get started" />
-            <Button onPress={() => this.props.navigation.navigate('')} title="Get started" />
+            <Button
+              onPress={() => this.props.navigation.navigate('Website')}
+              title="Visit Website"
+            />
           </View>
         )}
       </View>

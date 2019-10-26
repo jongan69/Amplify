@@ -2,7 +2,7 @@ import { createAppContainer, createStackNavigator } from 'react-navigation'
 // import React from 'react'
 import HomeScreen from 'App/Containers/HomeScreen/HomeScreen'
 import SplashScreen from 'App/Containers/SplashScreen/SplashScreen'
-
+import { Website } from 'App/Containers/Website/Website'
 /**
  * The root screen contains the application's navigation.
  *
@@ -16,7 +16,7 @@ const StackNavigator = createStackNavigator(
     // The main application screen is our "ExampleScreen". Feel free to replace it with your
     // own screen and remove the example.
     MainScreen: HomeScreen,
-    LoginScreen: HomeScreen,
+    Website: Website,
   },
   {
     // By default the application will show the splash screen

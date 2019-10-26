@@ -36,4 +36,6 @@ dependencies: \
   /Volumes/Jons\ SDD/Code/ReactNativeApps/Amplify/ios/Pods/Headers/Public/React-Core/React/RCTRootView.h \
   /Volumes/Jons\ SDD/Code/ReactNativeApps/Amplify/ios/Pods/Headers/Public/React-Core/React/RCTUIManagerUtils.h \
   /Volumes/Jons\ SDD/Code/ReactNativeApps/Amplify/ios/Pods/Headers/Public/React-Core/React/RCTShadowView.h \
-  /Volumes/Jons\ SDD/Code/ReactNativeApps/Amplify/ios/Pods/Headers/Public/React-Core/React/RCTLayout.h
+  /Volumes/Jons\ SDD/Code/ReactNativeApps/Amplify/ios/Pods/Headers/Public/React-Core/React/RCTLayout.h \
+  /Volumes/Jons\ SDD/Code/ReactNativeApps/Amplify/ios/Pods/Headers/Public/React-Core/React/RCTRootContentView.h \
+  /Volumes/Jons\ SDD/Code/ReactNativeApps/Amplify/ios/Pods/Headers/Public/React-Core/React/RCTTouchHandler.h
