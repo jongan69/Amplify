@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text } from 'react-native'
-import { CardSection } from './CardSection'
-import { Card } from './Card'
+import { CardSection } from '../../Components/CardSection'
+import { Card } from '../../Components/Card'
 
 class Profile extends React.PureComponent {
   render() {

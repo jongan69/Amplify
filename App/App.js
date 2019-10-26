@@ -5,7 +5,11 @@ import { Provider as PaperProvider } from 'react-native-paper'
 import createStore from 'App/Stores'
 import RootScreen from './Containers/Root/RootScreen'
 import SplashScreen from './Containers/SplashScreen/SplashScreen'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+// import { fab } from '@fortawesome/free-solid-svg-icons'
 
+library.add(fab)
 const { store, persistor } = createStore()
 
 export default class App extends Component {

@@ -4,11 +4,11 @@ import React from 'react'
 
 import { WebView } from 'react-native-webview'
 
-class Website extends React.PureComponent {
+class Tickets extends React.PureComponent {
   render() {
     // const { textView } = styles
     return <WebView source={{ uri: 'https://amplifywebsite.herokuapp.com' }} />
   }
 }
 
-export { Website }
+export { Tickets }

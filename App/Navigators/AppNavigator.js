@@ -4,7 +4,13 @@ import { createStackNavigator } from 'react-navigation-stack'
 import HomeScreen from 'App/Containers/HomeScreen/HomeScreen'
 import SplashScreen from 'App/Containers/SplashScreen/SplashScreen'
 import { Website } from 'App/Containers/Website/Website'
-import Mainapp from 'App/Containers/Mainapp/Mainapp'
+// import Mainapp from 'App/Containers/Mainapp/Mainapp'
+// import { Profile } from '../Containers/Profile/Profile'
+// import { Tickets } from '../Containers/Tickets/Tickets'
+// import { Home } from '../Containers/Home/Home'
+import { App } from '../Containers/Home/Home2'
+// import BottomNavigator from '../Components/createMaterialBottomTabNavigator'
+// import { Stadium } from '../Containers/Stadium/Stadium'
 /**
  * The root screen contains the application's navigation.
  *
@@ -19,13 +25,17 @@ const StackNavigator = createStackNavigator(
     // own screen and remove the example.
     MainScreen: HomeScreen,
     Website: Website,
-    Demo: Mainapp,
+    Demo: App,
+    // Demo: BottomNavigator,
+    // Tickets: Tickets,
+    // Stadium: Stadium,
+    // Profile: Profile,
   },
   {
     headerMode: 'none',
     // By default the application will show the splash screen
     defaultNavigationOptions: {
-      initialRouteName: 'SplashScreen',
+      // initialRouteName: 'SplashScreen',
       headerMode: 'none',
       // headerStyle: {
       //   headerTitle: 'Amplify',
