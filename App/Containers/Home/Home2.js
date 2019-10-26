@@ -4,13 +4,15 @@
 /* eslint-disable react/display-name */
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import { StyleSheet, Text, View, Image } from 'react-native'
+import { StyleSheet, Text, View, Image, ScrollView } from 'react-native'
 import { createBottomTabNavigator, createAppContainer } from 'react-navigation'
 import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs'
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import { Card } from '../../Components/Card'
 import { CardSection } from '../../Components/CardSection'
 import { WebView } from 'react-native-webview'
+const FBSDK = require('react-native-fbsdk')
+const { GraphRequest, GraphRequestManager } = FBSDK
 
 // class Website extends React.PureComponent {
 //   render() {
@@ -46,22 +48,36 @@ class Home extends React.Component {
 class Tickets extends React.Component {
   render() {
     return (
-      <WebView
-        // style={{ alignItem: 'center', justifyContent: 'center', width: '80%', height: '100/%' }}
-        // style={styles.container, overflow: 'hidden'}
-        style={{
-          marginTop: '20%',
-          flex: 0.8,
-          height: 500,
-          backgroundColor: 'pink',
-          overflow: 'hidden',
-        }}
-        source={{ uri: 'https://www.youtube.com/watch?v=fwCS4Lu4qAM' }}
-        useWebKit
-        bounces={false}
-        javaScriptEnabled
-        automaticallyAdjustContentInsets={true}
-      />
+      <ScrollView>
+        <WebView
+          style={{
+            marginTop: '20%',
+            flex: 0.8,
+            height: 500,
+            backgroundColor: 'pink',
+            overflow: 'hidden',
+          }}
+          source={{ uri: 'http://9live.club/02b75189-b713-4c1d-a46d-8c0097b996cb' }}
+          useWebKit
+          bounces={false}
+          javaScriptEnabled
+          automaticallyAdjustContentInsets={true}
+        />
+        <WebView
+          style={{
+            marginTop: '20%',
+            flex: 0.8,
+            height: 500,
+            backgroundColor: 'pink',
+            overflow: 'hidden',
+          }}
+          source={{ uri: 'https://www.youtube.com/watch?v=fwCS4Lu4qAM' }}
+          useWebKit
+          bounces={false}
+          javaScriptEnabled
+          automaticallyAdjustContentInsets={true}
+        />
+      </ScrollView>
       //        <Card>
       //   <CardSection>
       //     <View style={styles.container}>
@@ -104,12 +120,24 @@ class Stadiums extends React.Component {
 }
 
 class Profile extends React.Component {
+   _responseInfoCallback(error: ?Object, result: ?Object) {
+  if (error) {
+    alert('Error fetching data: ' + error.toString());
+  } else {
+    alert('Success fetching data: ' + result.toString());
+  }
+}
   render() {
+    const infoRequest = new GraphRequest('/me', null, this._responseInfoCallback)
+
+    new GraphRequestManager().addRequest(infoRequest).start()
     return (
       <Card>
         <CardSection>
           <View style={styles.container}>
             <Text>Profile Screen</Text>
+          {this._responseInfoCallback} 
+          
           </View>
         </CardSection>
       </Card>

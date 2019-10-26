@@ -54,15 +54,15 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		+Ip4S/dmY+FJsjmlzPJR255EQbA=
+		iCLuEWwzFf3/XKJpS5IFR3w0pHA=
 		</data>
 		<key>Base.lproj/LaunchScreen.nib/objects-13.0+.nib</key>
 		<data>
-		FvgfNsk61Vcu7UEm+014A3yQqog=
+		H+N/zKR8tSnZ9UwBf+k8um5v0qI=
 		</data>
 		<key>Base.lproj/LaunchScreen.nib/runtime.nib</key>
 		<data>
-		HVO3ZXQ4sNeAgKclpJRWy/j1VmQ=
+		VUQDoLeIOAWtfY7ySJ30ilPntVs=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -579,7 +579,7 @@
 		</data>
 		<key>PlugIns/AmplifyTests.xctest/AmplifyTests</key>
 		<data>
-		AGp3xxAVRGgBr6joEoBK1UuiWtI=
+		4xZT2qYZk/kQOFzrL9NRb1oAOzc=
 		</data>
 		<key>PlugIns/AmplifyTests.xctest/Info.plist</key>
 		<data>
@@ -736,33 +736,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+Ip4S/dmY+FJsjmlzPJR255EQbA=
+			iCLuEWwzFf3/XKJpS5IFR3w0pHA=
 			</data>
 			<key>hash2</key>
 			<data>
-			pKsqwFSyXdDx9ZMnWdgYhRmIHJi4lNNS9MKfJvSvw5Y=
+			RXQ0qpVltXhrZUXBmR0c487dzBvKJe70Tdtxt6uJu8E=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FvgfNsk61Vcu7UEm+014A3yQqog=
+			H+N/zKR8tSnZ9UwBf+k8um5v0qI=
 			</data>
 			<key>hash2</key>
 			<data>
-			BuoJQ8SMHnzPvl9w4M0zhBQqX/Rt5oLxQMY3I6IbtAs=
+			eW6yrIQEJ41Ea7F+jH4gdTjHnNLBSAUUjxLi2gwdvRU=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HVO3ZXQ4sNeAgKclpJRWy/j1VmQ=
+			VUQDoLeIOAWtfY7ySJ30ilPntVs=
 			</data>
 			<key>hash2</key>
 			<data>
-			c6i51gTvDbR57JrTDV5EJR2jQhXTkMbPMkXZ361I658=
+			AvFRwx+OH9Dj5T+QJ3Audp+fOWuNKUyGYmoBROSTMEs=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -1629,11 +1629,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AGp3xxAVRGgBr6joEoBK1UuiWtI=
+			4xZT2qYZk/kQOFzrL9NRb1oAOzc=
 			</data>
 			<key>hash2</key>
 			<data>
-			u2pXg83MxR7UbDJOUY1+7kv/lBfR90TIUXXRRXu9TyI=
+			rbc7SaW/2y12xW4mqaCIzXL0JudMqyNqAQyQ2aXBVX8=
 			</data>
 		</dict>
 		<key>PlugIns/AmplifyTests.xctest/Info.plist</key>

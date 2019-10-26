@@ -40,40 +40,6 @@
 			<key>uniqueIdentifier</key>
 			<string>0E521A33-DF0C-41E8-B4F2-C5F7C1946CC1</string>
 		</dict>
-		<key>917F1D24-6C0A-46B6-A352-0EE6CE7D5900</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>917F1D24-6C0A-46B6-A352-0EE6CE7D5900.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Amplify project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Amplify</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building workspace Amplify with scheme Amplify and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>593819997.94935501</real>
-			<key>timeStoppedRecording</key>
-			<real>593820055.78691995</real>
-			<key>title</key>
-			<string>Building workspace Amplify with scheme Amplify and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>917F1D24-6C0A-46B6-A352-0EE6CE7D5900</string>
-		</dict>
 	</dict>
 </dict>
 </plist>
