@@ -61,7 +61,11 @@ class HomeScreen extends React.Component {
               <Image style={Style.logo} source={Images.logo} resizeMode={'contain'} />
             </View>
             <Text style={Style.text}>To get started, Login/Signup</Text>
-            <Button onPress={() => this._fetchUser()} title="Get started" />
+            {/* <Button onPress={() => this._fetchUser()} title="Get started" /> */}
+            <Button
+              onPress={() => this.props.navigation.navigate('Website')}
+              title="Visit Website"
+            />
             <Button
               onPress={() => this.props.navigation.navigate('Website')}
               title="Visit Website"
