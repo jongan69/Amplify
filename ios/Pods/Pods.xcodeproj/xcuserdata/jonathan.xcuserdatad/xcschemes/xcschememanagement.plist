@@ -14,22 +14,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-JonsReactNativeTemplate-tvOS.xcscheme</key>
+		<key>Pods-Amplify-tvOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-JonsReactNativeTemplate-tvOSTests.xcscheme</key>
+		<key>Pods-Amplify-tvOSTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-JonsReactNativeTemplate.xcscheme</key>
+		<key>Pods-Amplify.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-JonsReactNativeTemplateTests.xcscheme</key>
+		<key>Pods-AmplifyTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

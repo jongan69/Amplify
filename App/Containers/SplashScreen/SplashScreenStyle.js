@@ -2,6 +2,7 @@ import { StyleSheet } from 'react-native'
 import Colors from 'App/Theme/Colors'
 import ApplicationStyles from 'App/Theme/ApplicationStyles'
 
+const bg = '#0000'
 export default StyleSheet.create({
   container: {
     ...ApplicationStyles.screen.container,
@@ -12,7 +13,7 @@ export default StyleSheet.create({
   },
   logo: {
     alignItems: 'center',
-    backgroundColor: '#0000',
+    backgroundColor: bg,
     display: 'flex',
     height: 70,
     justifyContent: 'center',
