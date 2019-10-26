@@ -7,7 +7,7 @@ import { WebView } from './node_modules/react-native-webview'
 class Website extends React.PureComponent {
   render() {
     // const { textView } = styles
-    return <WebView source={{ uri: 'https://phoenixhacks.com/#faq' }} />
+    return <WebView source={{ uri: 'https://amplifywebsite.herokuapp.com' }} />
   }
 }
 // const styles = {
