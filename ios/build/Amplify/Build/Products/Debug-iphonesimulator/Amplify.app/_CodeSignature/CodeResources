@@ -50,15 +50,15 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		1It2NjzQPLVY90GjNoNs9DqMMkU=
+		+Ip4S/dmY+FJsjmlzPJR255EQbA=
 		</data>
 		<key>Base.lproj/LaunchScreen.nib/objects-13.0+.nib</key>
 		<data>
-		Xw5Fw6+k/qGQhxxVQMPC+0nMPMY=
+		FvgfNsk61Vcu7UEm+014A3yQqog=
 		</data>
 		<key>Base.lproj/LaunchScreen.nib/runtime.nib</key>
 		<data>
-		OmdZZ2nGd/wMDjyQcww3ni0ccfE=
+		HVO3ZXQ4sNeAgKclpJRWy/j1VmQ=
 		</data>
 		<key>FacebookSDKStrings.bundle/Resources/af.lproj/FacebookSDK.strings</key>
 		<dict>
@@ -523,7 +523,7 @@
 		</data>
 		<key>PlugIns/AmplifyTests.xctest/AmplifyTests</key>
 		<data>
-		PAuEJFlZTHK0AA4pFtOOyK3Royk=
+		w6IblYb4x3QxvhDEVGvvWNJrbBc=
 		</data>
 		<key>PlugIns/AmplifyTests.xctest/Info.plist</key>
 		<data>
@@ -661,33 +661,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1It2NjzQPLVY90GjNoNs9DqMMkU=
+			+Ip4S/dmY+FJsjmlzPJR255EQbA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Uar0ycN8TnSbmCqa4cuLdGeGU6ia+hKnDjk8xKKPDsc=
+			pKsqwFSyXdDx9ZMnWdgYhRmIHJi4lNNS9MKfJvSvw5Y=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Xw5Fw6+k/qGQhxxVQMPC+0nMPMY=
+			FvgfNsk61Vcu7UEm+014A3yQqog=
 			</data>
 			<key>hash2</key>
 			<data>
-			ANl0yShDC7WeRYAjeeGl/R0tbs20SKECiAqezMhEnr0=
+			BuoJQ8SMHnzPvl9w4M0zhBQqX/Rt5oLxQMY3I6IbtAs=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OmdZZ2nGd/wMDjyQcww3ni0ccfE=
+			HVO3ZXQ4sNeAgKclpJRWy/j1VmQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			FcxxSlQ4RDgQpow3x0Op3LQDmOPTRvq/TV7Kbz+UK/M=
+			c6i51gTvDbR57JrTDV5EJR2jQhXTkMbPMkXZ361I658=
 			</data>
 		</dict>
 		<key>FacebookSDKStrings.bundle/Resources/af.lproj/FacebookSDK.strings</key>
@@ -1411,11 +1411,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PAuEJFlZTHK0AA4pFtOOyK3Royk=
+			w6IblYb4x3QxvhDEVGvvWNJrbBc=
 			</data>
 			<key>hash2</key>
 			<data>
-			rexTRlk4Ur0Y4wcC42XcT9MELU6EM/zKKgFujf1Xvp8=
+			dPmx7+9NJMmYM+rtWyjN2mG5il37xXOxYAbyrYFmX5w=
 			</data>
 		</dict>
 		<key>PlugIns/AmplifyTests.xctest/Info.plist</key>
