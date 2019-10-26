@@ -3,6 +3,7 @@ import { createAppContainer, createStackNavigator } from 'react-navigation'
 import HomeScreen from 'App/Containers/HomeScreen/HomeScreen'
 import SplashScreen from 'App/Containers/SplashScreen/SplashScreen'
 import { Website } from 'App/Containers/Website/Website'
+import Mainapp from 'App/Containers/Mainapp/Mainapp'
 /**
  * The root screen contains the application's navigation.
  *
@@ -17,6 +18,7 @@ const StackNavigator = createStackNavigator(
     // own screen and remove the example.
     MainScreen: HomeScreen,
     Website: Website,
+    Demo: Mainapp,
   },
   {
     headerMode: 'none',

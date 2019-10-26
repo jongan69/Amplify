@@ -1,6 +1,20 @@
 PODS:
   - boost-for-react-native (1.63.0)
   - DoubleConversion (1.1.6)
+  - FBSDKCoreKit (5.8.0):
+    - FBSDKCoreKit/Basics (= 5.8.0)
+    - FBSDKCoreKit/Core (= 5.8.0)
+  - FBSDKCoreKit/Basics (5.8.0)
+  - FBSDKCoreKit/Core (5.8.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.8.0):
+    - FBSDKLoginKit/Login (= 5.8.0)
+  - FBSDKLoginKit/Login (5.8.0):
+    - FBSDKCoreKit (~> 5.0)
+  - FBSDKShareKit (5.8.0):
+    - FBSDKShareKit/Share (= 5.8.0)
+  - FBSDKShareKit/Share (5.8.0):
+    - FBSDKCoreKit (~> 5.0)
   - Folly (2018.10.22.00):
     - boost-for-react-native
     - DoubleConversion
@@ -56,6 +70,20 @@ PODS:
     - React-cxxreact (= 0.60.5)
     - React-jsi (= 0.60.5)
   - React-jsinspector (0.60.5)
+  - react-native-fbsdk (1.0.4):
+    - React
+    - react-native-fbsdk/Core (= 1.0.4)
+    - react-native-fbsdk/Login (= 1.0.4)
+    - react-native-fbsdk/Share (= 1.0.4)
+  - react-native-fbsdk/Core (1.0.4):
+    - FBSDKCoreKit (~> 5.5)
+    - React
+  - react-native-fbsdk/Login (1.0.4):
+    - FBSDKLoginKit (~> 5.5)
+    - React
+  - react-native-fbsdk/Share (1.0.4):
+    - FBSDKShareKit (~> 5.5)
+    - React
   - react-native-webview (7.4.3):
     - React
   - React-RCTActionSheet (0.60.5):
@@ -98,6 +126,7 @@ DEPENDENCIES:
   - React-jsi (from `../node_modules/react-native/ReactCommon/jsi`)
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
+  - react-native-fbsdk (from `../node_modules/react-native-fbsdk`)
   - react-native-webview (from `../node_modules/react-native-webview`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
@@ -116,6 +145,9 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - boost-for-react-native
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -138,6 +170,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsiexecutor"
   React-jsinspector:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
+  react-native-fbsdk:
+    :path: "../node_modules/react-native-fbsdk"
   react-native-webview:
     :path: "../node_modules/react-native-webview"
   React-RCTActionSheet:
@@ -170,6 +204,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
+  FBSDKCoreKit: e7dcac0aabcfb09d0166998edd95fe3b05a0ce5d
+  FBSDKLoginKit: 1b0cf04df0370b37404213157b060d6666ede814
+  FBSDKShareKit: abc29e1bb4f9f59f679adf1ae191006d68455f96
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
   React: 53c53c4d99097af47cf60594b8706b4e3321e722
@@ -179,6 +216,7 @@ SPEC CHECKSUMS:
   React-jsi: 4d8c9efb6312a9725b18d6fc818ffc103f60fec2
   React-jsiexecutor: 90ad2f9db09513fc763bc757fdc3c4ff8bde2a30
   React-jsinspector: e08662d1bf5b129a3d556eb9ea343a3f40353ae4
+  react-native-fbsdk: 45e28bbab3e905cbc635c0bdd3444b372e933ae9
   react-native-webview: 82d6456dfae1b3ef70c3939135536342afc96373
   React-RCTActionSheet: b0f1ea83f4bf75fb966eae9bfc47b78c8d3efd90
   React-RCTAnimation: 359ba1b5690b1e87cc173558a78e82d35919333e
@@ -194,6 +232,6 @@ SPEC CHECKSUMS:
   RNScreens: 73691421e207a57b85af0fea931e620b05a35e89
   yoga: 312528f5bbbba37b4dcea5ef00e8b4033fdd9411
 
-PODFILE CHECKSUM: b3f01abfb23658a604daa0c3020cdf204b626e01
+PODFILE CHECKSUM: f6b7687056a58462bc7a04ca8bd67b69631539d3
 
 COCOAPODS: 1.8.4

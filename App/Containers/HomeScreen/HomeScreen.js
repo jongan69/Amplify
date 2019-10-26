@@ -1,11 +1,13 @@
 import React from 'react'
-import { Text, View, Button, ActivityIndicator, Image } from 'react-native'
+import { Text, View, Button, ActivityIndicator, Image, StyleSheet } from 'react-native'
 import { connect } from 'react-redux'
 import { PropTypes } from 'prop-types'
 import ExampleActions from 'App/Stores/Example/Actions'
 import { liveInEurope } from 'App/Stores/Example/Selectors'
 import Style from './HomeScreenStyle'
 import { Images } from 'App/Theme'
+
+var FBLoginButton = require('../../Components/FBLoginButton');
 
 /**
  * This is an example of a container component.
@@ -62,13 +64,16 @@ class HomeScreen extends React.Component {
             </View>
             <Text style={Style.text}>To get started, Login/Signup</Text>
             {/* <Button onPress={() => this._fetchUser()} title="Get started" /> */}
+            <View style={styles.container}>
+              <FBLoginButton />
+              </View>
             <Button
               onPress={() => this.props.navigation.navigate('Website')}
               title="Visit Website"
             />
-            <Button
-              onPress={() => this.props.navigation.navigate('Website')}
-              title="Visit Website"
+             <Button
+              onPress={() => this.props.navigation.navigate('Demo')}
+              title="Skip for demo button"
             />
           </View>
         )}
@@ -80,6 +85,18 @@ class HomeScreen extends React.Component {
     this.props.fetchUser()
   }
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+     marginTop: '5%',
+    marginBottom: '10%',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+    }
+});
 
 HomeScreen.propTypes = {
   user: PropTypes.object,

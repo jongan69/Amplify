@@ -5,41 +5,6 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict>
-		<key>F3407EA2-3EB3-4245-9766-5C1FFF7EF75A</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>F3407EA2-3EB3-4245-9766-5C1FFF7EF75A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Amplify project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Amplify</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building workspace Amplify with scheme Amplify and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>593799010.410936</real>
-			<key>timeStoppedRecording</key>
-			<real>593799011.45161402</real>
-			<key>title</key>
-			<string>Building workspace Amplify with scheme Amplify and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>F3407EA2-3EB3-4245-9766-5C1FFF7EF75A</string>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

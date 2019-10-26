@@ -22,6 +22,10 @@
 		4DAB87E83FB0F8E413EA3C28 /* libPods-Amplify-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 262FB68990FABB4B74A57DD9 /* libPods-Amplify-tvOSTests.a */; };
 		63C37E8B2AC542F6BC4A8877 /* libRNGestureHandler-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB604BAD56CE40729982F1CB /* libRNGestureHandler-tvOS.a */; };
 		9B5170A1E2968F671F086D1D /* libPods-AmplifyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5329D520C5178EF1D2E66068 /* libPods-AmplifyTests.a */; };
+		AB0D819F2364C554000B0856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0D819E2364C554000B0856 /* Assets.xcassets */; };
+		AB0D81A02364C554000B0856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0D819E2364C554000B0856 /* Assets.xcassets */; };
+		AB0D81A12364C554000B0856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0D819E2364C554000B0856 /* Assets.xcassets */; };
+		AB0D81A22364C554000B0856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0D819E2364C554000B0856 /* Assets.xcassets */; };
 		BEDAA4C29F2A455594DDC00A /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECFD547ABDD40A8941F8AC8 /* libRNGestureHandler.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
@@ -69,6 +73,7 @@
 		75E936EB1A3002F6A9AB4156 /* Pods-Amplify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amplify.release.xcconfig"; path = "Target Support Files/Pods-Amplify/Pods-Amplify.release.xcconfig"; sourceTree = "<group>"; };
 		764AD50AC6F939E0A1C08B00 /* Pods-AmplifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmplifyTests.debug.xcconfig"; path = "Target Support Files/Pods-AmplifyTests/Pods-AmplifyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7ECFD547ABDD40A8941F8AC8 /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = "<group>"; };
+		AB0D819E2364C554000B0856 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B47D75E5D1913E2479AB2B8D /* Pods-Amplify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amplify.debug.xcconfig"; path = "Target Support Files/Pods-Amplify/Pods-Amplify.debug.xcconfig"; sourceTree = "<group>"; };
 		EB604BAD56CE40729982F1CB /* libRNGestureHandler-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNGestureHandler-tvOS.a"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -150,6 +155,7 @@
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				AB0D819E2364C554000B0856 /* Assets.xcassets */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
@@ -252,6 +258,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				F6E85D4BE3EED7069140A340 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -351,6 +358,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0D81A02364C554000B0856 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				AB0D819F2364C554000B0856 /* Assets.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +376,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0D81A12364C554000B0856 /* Assets.xcassets in Resources */,
 				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,6 +385,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0D81A22364C554000B0856 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +506,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6E85D4BE3EED7069140A340 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amplify/Pods-Amplify-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Amplify/Pods-Amplify-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -639,7 +668,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.becomevip;
 				PRODUCT_NAME = Amplify;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -662,7 +691,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.becomevip;
 				PRODUCT_NAME = Amplify;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -696,7 +725,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Amplify-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = org.becomevip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -732,7 +761,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Amplify-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = org.becomevip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;

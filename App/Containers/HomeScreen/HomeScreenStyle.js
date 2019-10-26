@@ -17,7 +17,7 @@ export default StyleSheet.create({
     color: $red,
     marginBottom: 5,
     textAlign: 'center',
-    backgroundColor: '#D8E9F0',
+    // backgroundColor: '#D8E9F0',
   },
   instructions: {
     ...Fonts.style.normal,
@@ -35,7 +35,7 @@ export default StyleSheet.create({
   logo: {
     height: '100%',
     width: '100%',
-    backgroundColor: '#D8E9F0',
+    // backgroundColor: '#D8E9F0',
   },
   logoContainer: {
     height: 300,
