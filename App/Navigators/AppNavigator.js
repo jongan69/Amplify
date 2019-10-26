@@ -1,5 +1,5 @@
 import { createAppContainer, createStackNavigator } from 'react-navigation'
-
+// import React from 'react'
 import HomeScreen from 'App/Containers/HomeScreen/HomeScreen'
 import SplashScreen from 'App/Containers/SplashScreen/SplashScreen'
 
@@ -16,12 +16,23 @@ const StackNavigator = createStackNavigator(
     // The main application screen is our "ExampleScreen". Feel free to replace it with your
     // own screen and remove the example.
     MainScreen: HomeScreen,
+    LoginScreen: HomeScreen,
   },
   {
     // By default the application will show the splash screen
-    initialRouteName: 'SplashScreen',
+    defaultNavigationOptions: {
+      initialRouteName: 'SplashScreen',
+      headerStyle: {
+        headerTitle: 'Amplify',
+        backgroundColor: '#D8E9F0',
+        // headerMode: 'float',
+        headerTintColor: '#000000',
+      },
+      // headerTitle: 'Test',
+      headerTitleStyle: { flex: 1, textAlign: 'center', color: '#fff' },
+      // headerLayoutPreset: 'left',
+    },
     // See https://reactnavigation.org/docs/en/stack-navigator.html#stacknavigatorconfig
-    headerMode: 'none',
   }
 )
 

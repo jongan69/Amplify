@@ -1,5 +1,5 @@
 import React from 'react'
-import { Platform, Text, View, Button, ActivityIndicator, Image } from 'react-native'
+import { Text, View, Button, ActivityIndicator, Image } from 'react-native'
 import { connect } from 'react-redux'
 import { PropTypes } from 'prop-types'
 import ExampleActions from 'App/Stores/Example/Actions'
@@ -14,14 +14,33 @@ import { Images } from 'App/Theme'
  * Feel free to remove it.
  */
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\nCmd+D or shake for dev menu.',
-  android: 'Double tap R on your keyboard to reload,\nShake or press menu button for dev menu.',
-})
+// {/* <Text style={Style.instructions}>{instructions}</Text>
+//             {this.props.userErrorMessage ? (
+//               <Text style={Style.error}>{this.props.userErrorMessage}</Text>
+//             ) : (
+//               <View>
+//                 <Text style={Style.result}>
+//                   {"I'm a fake user, my name is "}
+//                   {this.props.user.name}
+//                 </Text>
+//                 <Text style={Style.result}>
+//                   {this.props.liveInEurope ? 'I live in Europe !' : "I don't live in Europe."}
+//                 </Text>
+//               </View>
+//             )} */}
+
+// const instructions = Platform.select({
+//   ios: 'Press Cmd+R to reload,\nCmd+D or shake for dev menu.',
+//   android: 'Double tap R on your keyboard to reload,\nShake or press menu button for dev menu.',
+// })
 
 class HomeScreen extends React.Component {
   componentDidMount() {
     this._fetchUser()
+  }
+  constructor(props) {
+    super(props)
+    this.state = { isLoading: true }
   }
 
   render() {
@@ -31,26 +50,13 @@ class HomeScreen extends React.Component {
           <ActivityIndicator size="large" color="#0000ff" />
         ) : (
           <View>
-            <Text style={Style.title}>Welcome to the Template!</Text>
+            <Text style={Style.title}>Welcome to Amplify</Text>
             <View style={Style.logoContainer}>
               <Image style={Style.logo} source={Images.logo} resizeMode={'contain'} />
             </View>
-            <Text style={Style.text}>To get started, edit App.js</Text>
-            <Text style={Style.instructions}>{instructions}</Text>
-            {this.props.userErrorMessage ? (
-              <Text style={Style.error}>{this.props.userErrorMessage}</Text>
-            ) : (
-              <View>
-                <Text style={Style.result}>
-                  {"I'm a fake user, my name is "}
-                  {this.props.user.name}
-                </Text>
-                <Text style={Style.result}>
-                  {this.props.liveInEurope ? 'I live in Europe !' : "I don't live in Europe."}
-                </Text>
-              </View>
-            )}
-            <Button onPress={() => this._fetchUser()} title="Refresh" />
+            <Text style={Style.text}>To get started, Login/Signup</Text>
+            <Button onPress={() => this._fetchUser()} title="Get started" />
+            <Button onPress={() => this.props.navigation.navigate('')} title="Get started" />
           </View>
         )}
       </View>
