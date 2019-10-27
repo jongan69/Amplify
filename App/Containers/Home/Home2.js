@@ -31,7 +31,7 @@ const { GraphRequest, GraphRequestManager } = FBSDK
 // type Props = {}
 // const house = <FontAwesome5 name={'home'} light />
 const main = '#D8E9F0'
-class Home extends React.Component {
+class Home extends React.PureComponent {
   render() {
     return (
       <Card>
@@ -45,7 +45,7 @@ class Home extends React.Component {
   }
 }
 
-class Tickets extends React.Component {
+class Tickets extends React.PureComponent {
   render() {
     return (
       <ScrollView>
@@ -89,7 +89,7 @@ class Tickets extends React.Component {
   }
 }
 
-class Stadiums extends React.Component {
+class Stadiums extends React.PureComponent {
   render() {
     return (
       // <Card>
@@ -119,8 +119,8 @@ class Stadiums extends React.Component {
   }
 }
 
-class Profile extends React.Component {
-   _responseInfoCallback(error: ?Object, result: ?Object) {
+class Profile extends React.PureComponent {
+   _responseInfoCallback(error: ? Object, result: ? Object) {
   if (error) {
     alert('Error fetching data: ' + error.toString());
   } else {
@@ -131,13 +131,14 @@ class Profile extends React.Component {
     const infoRequest = new GraphRequest('/me', null, this._responseInfoCallback)
 
     new GraphRequestManager().addRequest(infoRequest).start()
+    const user = this._responseInfoCallback.GraphRequestManager
     return (
       <Card>
         <CardSection>
           <View style={styles.container}>
             <Text>Profile Screen</Text>
-          {this._responseInfoCallback} 
-          
+            <Text>Hi there:  {user} </Text>
+          {/* {infoRequest} */}
           </View>
         </CardSection>
       </Card>
@@ -148,7 +149,6 @@ class Profile extends React.Component {
 const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
-    flex: 1,
     justifyContent: 'center',
   },
 })
@@ -160,7 +160,12 @@ const TabNavigator = createMaterialBottomTabNavigator(
         tabBarLabel: 'Home',
         tabBarIcon: ({ main }) => (
           <View>
-            <Image source={{ uri: 'https://facebook.github.io/react-native/img/tiny_logo.png' }} />
+            <Image 
+            style={{
+          width:  '1%',
+          height: '1%',
+        }}
+            source={{ uri: "https://facebook.github.io/react-native/img/tiny_logo.png" }} />
             {/* <Icon style={{ color: tintColor }} size={25} name={'home'} /> */}
             {/* <FontAwesomeIcon icon={['fab', 'house']} /> */}
             {/* <FontAwesomeIcon icon="house" /> */}
@@ -174,6 +179,7 @@ const TabNavigator = createMaterialBottomTabNavigator(
         tabBarLabel: 'Tickets',
         tabBarIcon: ({ tintColor }) => (
           <View>
+            <Text>Test</Text>
             {/* <Icon style={{ color: tintColor }} size={25} name={'ticket'} /> */}
             {/* <FontAwesomeIcon icon={'ticket'} /> */}
           </View>
