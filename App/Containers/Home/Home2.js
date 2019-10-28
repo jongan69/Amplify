@@ -4,15 +4,18 @@
 /* eslint-disable react/display-name */
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import { StyleSheet, Text, View, Image, ScrollView } from 'react-native'
+import { StyleSheet, Text, View, Image, ScrollView, types, state, TouchableOpacity } from 'react-native'
 import { createBottomTabNavigator, createAppContainer } from 'react-navigation'
 import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs'
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import { Card } from '../../Components/Card'
 import { CardSection } from '../../Components/CardSection'
 import { WebView } from 'react-native-webview'
+// import { string } from 'prop-types'
 const FBSDK = require('react-native-fbsdk')
+import { PropTypes } from 'prop-types'
 const { GraphRequest, GraphRequestManager } = FBSDK
+var FBLoginButton = require('../../Components/FBLoginButton');
 
 // class Website extends React.PureComponent {
 //   render() {
@@ -31,6 +34,7 @@ const { GraphRequest, GraphRequestManager } = FBSDK
 // type Props = {}
 // const house = <FontAwesome5 name={'home'} light />
 const main = '#D8E9F0'
+
 class Home extends React.PureComponent {
   render() {
     return (
@@ -120,16 +124,24 @@ class Stadiums extends React.PureComponent {
 }
 
 class Profile extends React.PureComponent {
-   _responseInfoCallback(error: ? Object, result: ? Object) {
+ 
+ _responseInfoCallback(error: ? Object, result: ? Object) {
   if (error) {
-    alert('Error fetching data: ' + error.toString());
+    this.setState = { Status: "Error" + error.toString()}
+    // alert('Error fetching data: ' + error.toString());
   } else {
-    alert('Success fetching data: ' + result.toString());
+    this.setState = {Status:  "Logged In: "}
+    // alert('Success fetching data: ' + result.toString());
   }
 }
+constructor(props) {
+    super(props)
+    this.state = {Status: "Not Logged in"}
+   }
+
   render() {
     const infoRequest = new GraphRequest('/me', null, this._responseInfoCallback)
-
+    // var Status = this.props;
     new GraphRequestManager().addRequest(infoRequest).start()
     const user = this._responseInfoCallback.GraphRequestManager
     return (
@@ -137,8 +149,13 @@ class Profile extends React.PureComponent {
         <CardSection>
           <View style={styles.container}>
             <Text>Profile Screen</Text>
-            <Text>Hi there:  {user} </Text>
-          {/* {infoRequest} */}
+            {/* <Text>Hello {FBLoginButton.LoginResult.Public_Profile.toString()}</Text> */}
+            <Text>Your Status: {this.state.Status} </Text>
+        <FBLoginButton
+        publishPermissions={['email']}
+        onPress={null}
+        onLogoutFinished={() => this.props.navigation.navigate('Loggedout')}
+        />
           </View>
         </CardSection>
       </Card>

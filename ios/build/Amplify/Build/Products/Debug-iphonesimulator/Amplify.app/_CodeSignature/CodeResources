@@ -54,15 +54,15 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		iCLuEWwzFf3/XKJpS5IFR3w0pHA=
+		71vudHVig30CONBdw+Ev6VOlfns=
 		</data>
 		<key>Base.lproj/LaunchScreen.nib/objects-13.0+.nib</key>
 		<data>
-		H+N/zKR8tSnZ9UwBf+k8um5v0qI=
+		96+Ob7YsAM8QNvT5a1t//6uoI7g=
 		</data>
 		<key>Base.lproj/LaunchScreen.nib/runtime.nib</key>
 		<data>
-		VUQDoLeIOAWtfY7ySJ30ilPntVs=
+		sbhjc/iQbBkroeICycam2Xqljlg=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -575,11 +575,11 @@
 		</data>
 		<key>PlugIns/AmplifyTests.xctest.dSYM/Contents/Resources/DWARF/AmplifyTests</key>
 		<data>
-		dNvfG3DeBIy7DE1AMlIBcguz9A8=
+		faQ0937ehkHjvUekyF0B8pb+2Zo=
 		</data>
 		<key>PlugIns/AmplifyTests.xctest/AmplifyTests</key>
 		<data>
-		4xZT2qYZk/kQOFzrL9NRb1oAOzc=
+		jZCWDMUswKYIUleWU2XDXGEteoc=
 		</data>
 		<key>PlugIns/AmplifyTests.xctest/Info.plist</key>
 		<data>
@@ -736,33 +736,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iCLuEWwzFf3/XKJpS5IFR3w0pHA=
+			71vudHVig30CONBdw+Ev6VOlfns=
 			</data>
 			<key>hash2</key>
 			<data>
-			RXQ0qpVltXhrZUXBmR0c487dzBvKJe70Tdtxt6uJu8E=
+			4IeHZ0lnnOuSXndlFY39Em0GhILkiIXkMO/r4mM2cEM=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H+N/zKR8tSnZ9UwBf+k8um5v0qI=
+			96+Ob7YsAM8QNvT5a1t//6uoI7g=
 			</data>
 			<key>hash2</key>
 			<data>
-			eW6yrIQEJ41Ea7F+jH4gdTjHnNLBSAUUjxLi2gwdvRU=
+			e6VKmc8zN/X73wnsVAxtK7qD8ry36iG97hCTXsgvquI=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VUQDoLeIOAWtfY7ySJ30ilPntVs=
+			sbhjc/iQbBkroeICycam2Xqljlg=
 			</data>
 			<key>hash2</key>
 			<data>
-			AvFRwx+OH9Dj5T+QJ3Audp+fOWuNKUyGYmoBROSTMEs=
+			/cnQv6Bm1HML/BBThoVy4wwqKoKrzqlWrPc0wYUnUps=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -1618,22 +1618,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dNvfG3DeBIy7DE1AMlIBcguz9A8=
+			faQ0937ehkHjvUekyF0B8pb+2Zo=
 			</data>
 			<key>hash2</key>
 			<data>
-			OEPpy5690luDU8rq7OTNJ2fiiBzGEFt8J/+8d3yuAbA=
+			/HOOCM0bB4bT0mU1gX5HIO65Hu/+W4D+e1wpOpzglTs=
 			</data>
 		</dict>
 		<key>PlugIns/AmplifyTests.xctest/AmplifyTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4xZT2qYZk/kQOFzrL9NRb1oAOzc=
+			jZCWDMUswKYIUleWU2XDXGEteoc=
 			</data>
 			<key>hash2</key>
 			<data>
-			rbc7SaW/2y12xW4mqaCIzXL0JudMqyNqAQyQ2aXBVX8=
+			g2FI9Dkl6iY3Ze0pWUAHPYIJCRvxahaPR1oPwpzmJ1g=
 			</data>
 		</dict>
 		<key>PlugIns/AmplifyTests.xctest/Info.plist</key>

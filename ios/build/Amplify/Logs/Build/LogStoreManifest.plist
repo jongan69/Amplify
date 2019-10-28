@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>0E521A33-DF0C-41E8-B4F2-C5F7C1946CC1</key>
+		<key>0B77C076-BC8D-469B-9F59-019B8241C302</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,13 +15,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>0E521A33-DF0C-41E8-B4F2-C5F7C1946CC1.xcactivitylog</string>
+			<string>0B77C076-BC8D-469B-9F59-019B8241C302.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>S</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>Amplify project</string>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Building workspace Amplify with scheme Amplify and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>593822117.66489697</real>
+			<real>593937083.70277297</real>
 			<key>timeStoppedRecording</key>
-			<real>593822120.03196704</real>
+			<real>593937085.12954402</real>
 			<key>title</key>
 			<string>Building workspace Amplify with scheme Amplify and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>0E521A33-DF0C-41E8-B4F2-C5F7C1946CC1</string>
+			<string>0B77C076-BC8D-469B-9F59-019B8241C302</string>
 		</dict>
-		<key>370B1F8C-8D55-4B76-A150-A196384D0EAA</key>
+		<key>8FA261DD-ACF6-4C83-A01F-1B60BB4A320B</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -49,13 +49,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>370B1F8C-8D55-4B76-A150-A196384D0EAA.xcactivitylog</string>
+			<string>8FA261DD-ACF6-4C83-A01F-1B60BB4A320B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>S</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>Amplify project</string>
@@ -66,13 +66,13 @@
 			<key>signature</key>
 			<string>Building workspace Amplify with scheme Amplify and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>593831598.469347</real>
+			<real>593944768.74308002</real>
 			<key>timeStoppedRecording</key>
-			<real>593831600.65024304</real>
+			<real>593944770.12975097</real>
 			<key>title</key>
 			<string>Building workspace Amplify with scheme Amplify and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>370B1F8C-8D55-4B76-A150-A196384D0EAA</string>
+			<string>8FA261DD-ACF6-4C83-A01F-1B60BB4A320B</string>
 		</dict>
 	</dict>
 </dict>

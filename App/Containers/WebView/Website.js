@@ -2,7 +2,7 @@ import React from 'react'
 
 // import { View, Text } from 'react-native'
 
-import { WebView } from './node_modules/react-native-webview'
+import WebView from 'react-native-webview'
 
 class Website extends React.PureComponent {
   render() {

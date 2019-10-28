@@ -2,6 +2,7 @@ import React from 'react'
 import { Text, View, Button, ActivityIndicator, Image, StyleSheet } from 'react-native'
 import { connect } from 'react-redux'
 import { PropTypes } from 'prop-types'
+import { withNavigation } from 'react-navigation';
 import ExampleActions from 'App/Stores/Example/Actions'
 import { liveInEurope } from 'App/Stores/Example/Selectors'
 import Style from './HomeScreenStyle'
@@ -37,9 +38,9 @@ var FBLoginButton = require('../../Components/FBLoginButton');
 // })
 
 class HomeScreen extends React.Component {
-  componentDidMount() {
-    this._fetchUser()
-  }
+  // componentDidMount() {
+  //   this._fetchUser()
+  // }
   constructor(props) {
     super(props)
     this.state = { isLoading: true }
@@ -48,7 +49,7 @@ class HomeScreen extends React.Component {
   render() {
     HomeScreen.propTypes = {
       navigation: PropTypes.shape({
-        navigate: PropTypes.func.isRequired,
+      navigate: PropTypes.func.isRequired,
       }).isRequired,
     }
 
@@ -71,19 +72,19 @@ class HomeScreen extends React.Component {
               onPress={() => this.props.navigation.navigate('Website')}
               title="Visit Website"
             />
-             <Button
+             {/* <Button
               onPress={() => this.props.navigation.navigate('Demo')}
               title="Skip for demo button"
-            />
+            /> */}
           </View>
         )}
       </View>
     )
   }
 
-  _fetchUser() {
-    this.props.fetchUser()
-  }
+  // _fetchUser() {
+  //   this.props.fetchUser()
+  // }
 }
 
 const styles = StyleSheet.create({
@@ -117,7 +118,9 @@ const mapDispatchToProps = (dispatch) => ({
   fetchUser: () => dispatch(ExampleActions.fetchUser()),
 })
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(HomeScreen)
+export  default withNavigation(HomeScreen);
+
+// export default connect(
+//   mapStateToProps,
+//   mapDispatchToProps
+// )(HomeScreen)

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>968F99DE-69DA-4E37-87DD-5C2AB5C7B430</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>968F99DE-69DA-4E37-87DD-5C2AB5C7B430.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Amplify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Amplify</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace Amplify with scheme Amplify and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>593924220.32630599</real>
+			<key>timeStoppedRecording</key>
+			<real>593924222.88531899</real>
+			<key>title</key>
+			<string>Building workspace Amplify with scheme Amplify and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>968F99DE-69DA-4E37-87DD-5C2AB5C7B430</string>
+		</dict>
+		<key>DE0E0C20-C967-41C1-A7C0-AE6080898149</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DE0E0C20-C967-41C1-A7C0-AE6080898149.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Amplify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Amplify</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace Amplify with scheme Amplify and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>593924453.40735495</real>
+			<key>timeStoppedRecording</key>
+			<real>593924454.95274603</real>
+			<key>title</key>
+			<string>Building workspace Amplify with scheme Amplify and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>DE0E0C20-C967-41C1-A7C0-AE6080898149</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
